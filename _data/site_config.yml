@@ -190,7 +190,7 @@ news:
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'http://msbmjm.github.io/sdg-data-beta/'
+remote_data_prefix: 'http://msbmjm.github.io/sdg-data-beta'
 reporting_status:
   title: status.reporting_status
   description: status.description
