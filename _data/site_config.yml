@@ -42,7 +42,8 @@ create_pages:
     folder: /search
     layout: search
     title: search.search
-custom_css: []
+custom_css: 
+  - /assets/css/custom.css
 custom_js:
   - /assets/js/custom.js
 data_edit_url: data
