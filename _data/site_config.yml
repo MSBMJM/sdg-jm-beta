@@ -61,7 +61,7 @@ email_contacts:
 environment: staging
 footer_language_toggle: none
 footer_menu:
- - path: https://statinja.gov.jm/Contact.aspx
+  - path: https://statinja.gov.jm/Contact.aspx
     translation_key: menu.contact_us
   - path: https://twitter.com/STATINJA
     translation_key: general.twitter
