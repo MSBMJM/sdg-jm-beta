@@ -43,9 +43,9 @@ create_pages:
     layout: search
     title: search.search
 custom_css: 
-  - /assets/css/custom.css
-custom_js:
-  - /assets/js/custom.js
+   - /assets/css/custom.css
+custom_js: 
+    - /assets/js/custom.js
 data_edit_url: data
 data_fields:
   units: ''
@@ -166,6 +166,9 @@ menu:
   - path: /reporting-status
     translation_key: menu.reporting_status
     dropdown: []
+  - path: https://statinja.gov.jm/sdg.aspx#/Reports
+    translation_key: Reports
+    dropdown: []
   - path: /about
     translation_key: menu.about
     dropdown: []
@@ -175,7 +178,7 @@ menu:
   - path: /news
     translation_key: menu.updates
     dropdown: []
-metadata_edit_url: metadata
+metadata_edit_url: https://prose.io/#omarx/sdg-data/tree/develop/meta/[id].md
 metadata_tabs:
   - scope: national
     title: indicator.national_metadata
@@ -206,8 +209,8 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/MSBMJM/sdg-data-beta/'
-repository_url_site: ''
+repository_url_data: 'https://github.com/MSBMJM/sdg-data-beta'
+repository_url_site: 'https://github.com/MSBMJM/sdg-jm-beta/'
 search_index_boost: []
 search_index_extra_fields: []
 site_config_form:
