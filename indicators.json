@@ -915,7 +915,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-jm-beta/8-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-6-1",
@@ -1379,7 +1379,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-jm-beta/12-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-2-2",
@@ -2155,7 +2155,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-jm-beta/17-19-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   }]
