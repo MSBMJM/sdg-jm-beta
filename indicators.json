@@ -1366,6 +1366,14 @@
           "status": "notstarted"
         },
         {
+          "id": "11-b-1 ",
+          "title": "global_indicators.11-b-1 -title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-jm-beta/11-b-1 ",
+          "status": "notstarted"
+        },
+        {
           "id": "11-c-1",
           "title": "Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials",
           "description": "",
@@ -1750,6 +1758,14 @@
           "status": "notstarted"
         },
         {
+          "id": "15-70-1",
+          "title": "global_indicators.15-70-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-jm-beta/15-70-1",
+          "status": "notstarted"
+        },
+        {
           "id": "15-a-1",
           "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
           "description": "",
@@ -1852,6 +1868,14 @@
           "keywords": "",
           "href": "/sdg-jm-beta/16-3-2",
           "status": "complete"
+        },
+        {
+          "id": "16-3-3",
+          "title": "Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-jm-beta/16-3-3",
+          "status": "notstarted"
         },
         {
           "id": "16-4-1",
