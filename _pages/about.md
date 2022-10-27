@@ -7,7 +7,7 @@ layout: page
 
 The Sustainable Development Goals (SDGs) National Reporting Platform for Jamaica was developed by the Statistical Institute of Jamaica (STATIN) in collaboration with Mona School of Business and Management (MSBM) using the Open SDG platform. This is  a free-to-reuse platform for managing and publishing data and statistics related to the  [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs).
 
-##The 2030 Agenda for Sustainable Development
+## The 2030 Agenda for Sustainable Development
 
 The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a blueprint for peace and prosperity for people and the planet, now and into the future.  At its heart are the 17 SDGs, a universal call to action to:
 
