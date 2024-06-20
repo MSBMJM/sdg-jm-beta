@@ -5,11 +5,12 @@ on:
     branches:
       - develop
   workflow_dispatch:
-  #schedule:
-  #  - cron: '10 0 * * *'
+  # schedule:
+  #   - cron: '10 0 * * *'
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
   build:
@@ -17,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
     - name: Set up Ruby 3.2
       uses: ruby/setup-ruby@v1
       with:
@@ -33,7 +34,7 @@ jobs:
         bundle install
         bundle exec jekyll build --baseurl=/${{ env.GITHUB_REPOSITORY_NAME_PART }}
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@4.4.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
