@@ -5,8 +5,6 @@ on:
     branches:
       - develop
   workflow_dispatch:
-  # schedule:
-  #   - cron: '10 0 * * *'
 
 permissions:
   contents: write
@@ -14,26 +12,36 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
+
     - name: Set up Ruby 3.2
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2.2'
+
     - name: Inject slug/short variables
       uses: rlespinasse/github-slug-action@v3.x
+
     - name: Set the REPOSITORY_URL_SITE environment variable
       run: echo "REPOSITORY_URL_SITE=https://github.com/$GITHUB_REPOSITORY" >> $GITHUB_ENV
-    - name: Build the site
+
+    - name: Install dependencies
       run: |
         gem install bundler
-        gem install rexml
         bundle config path vendor/bundle
         bundle install
+
+    - name: Install additional dependencies
+      run: |
+        gem install rexml
+
+    - name: Build the site
+      run: |
         bundle exec jekyll build --baseurl=/${{ env.GITHUB_REPOSITORY_NAME_PART }}
+
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
